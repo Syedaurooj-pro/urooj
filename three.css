@@ -1,0 +1,84 @@
+
+.navbar {
+    background-color: transparent;
+     padding: 20px 0;
+     position: absolute; 
+    width: 100%; 
+     z-index: 10;
+}
+
+
+.contact-section {
+  padding: 50px 20px;
+  background-color:  #ffa400;
+  position: relative;
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #5a5a5a;
+}
+
+.underline {
+  width: 60px;
+  height: 3px;
+  background-color: #d4a347;
+  margin: 10px auto 20px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group textarea {
+  height: 100px;
+  resize: none;
+}
+
+.send-btn {
+  display: inline-block;
+  background-color: #dfa842;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color rgb(235, 235, 107);
+}
+
+.send-btn:hover {
+  background-color: #eb9132;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer .social-icons a {
+  margin: 0 10px;
+  font-size: 20px;
+  color: #5a5a5a;
+  transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+  color: #80e622;
+}
